@@ -6,7 +6,7 @@ st.caption("Ask anything about ISRO history, missions and achievements, technolo
 st.caption("RAG pipeline with Multiple files")
 st.caption("Created by Group_1")
 
-my_key = st.secrets["GROQ_API_KEY"]
+my_key = st.secrets["GROQ_API_KEY"] 
 
 @st.cache_resource
 def initiate_rag():
